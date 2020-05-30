@@ -1,0 +1,38 @@
+header{
+    background-color: #D67ED6;
+    text-align: center;
+    padding-bottom: 10px;
+}
+body{
+    margin: 4%;
+}
+h2{
+    font-variant: small-caps;
+    color: #3A7CD6;
+}
+h1{
+    font-variant: small-caps;
+    color: #FFFFFF;
+    text-align: center;
+}
+img{
+    width: 150px;
+}
+header{
+    text-align: center;
+    padding: 10px;
+}
+section{
+    width: 30%;
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+    background-color: #A5D5B2;
+}
+a{
+    background-color: #DCC33E;
+    color: #000000;
+}
+footer{
+    clear: both;
+}
