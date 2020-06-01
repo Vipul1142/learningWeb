@@ -1,8 +1,9 @@
-body{
+body {
     margin: 2%;
     padding: 5px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     display: inline-block;
     width: 20%;
@@ -14,8 +15,9 @@ nav a{
     border-radius: 5px;
     color: #000000;
 }
-header{
-    background-image:url("../../images/flywheel.jpg");
+
+header {
+    background-image: url("../../images/flywheel.jpg");
     text-align: center;
     padding: 10px;
     display: block;
@@ -24,60 +26,86 @@ header{
     background-repeat: no-repeat;
 }
 
-h1{
+h1 {
     font-family: 'Times New Roman';
     font-variant: small-caps;
     color: #FFFFFF;
 }
-.left{
+
+.left {
     float: left;
     display: inline-block;
     width: 24%;
-    background-color:#FF4930;
+    background-color: #FF4930;
 }
-.right{
+
+.right {
     display: inline-block;
     width: 75%;
     padding-top: 10px;
     padding-left: 1%;
     float: left;
 }
-.active{
+
+.active {
     background-color: #FFFFFF;
 }
-img{
+
+img {
     display: block;
     width: 80%;
     height: auto;
     margin: 10%;
     border-style: solid;
     border-width: 2px;
-    border-color:#FFFFFF;
+    border-color: #FFFFFF;
 }
-table{
-    margin-left: 10%;
+
+table {
+    margin-left: 5%;
 }
-tr th,tr td{
+
+tr:hover,
+td:hover {
+    background-color: #FF642290;
+    box-shadow: 0px 0px 5px #800080;
+}
+
+th,
+td {
     height: 35px;
     width: inherit;
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
 }
-th{
+
+th {
     background-color: #FF4930;
+    background-image: linear-gradient(to right, #FF4930, #a81fe7);
     border-bottom-style: solid;
     border-bottom-color: #8b008b;
     border-bottom-width: 3px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     color: #FFFFFF;
-    font-family: 'Lucida Sans',Geneva, Verdana;
+    font-family: 'Lucida Sans', Geneva, Verdana;
 }
-td{
-    background-color: #FF642250;
+
+th::first-letter {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffff00;
 }
-th:first-child,td:nth-child(1){
+
+td {
+    background-color: #FF642260;
+    border-radius: 3px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+th:first-child,
+td:nth-child(1) {
     text-align: left;
     padding-left: 15px;
 }
